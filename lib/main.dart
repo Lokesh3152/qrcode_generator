@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Center(
           child: Container(
-            width: 300,
+            width: 260,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -80,8 +80,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 16, 0, 0),
                   child: TextField(
-                    controller: convertText,
                     autofocus: true,
+                    controller: convertText,
+                    textAlign: TextAlign.center,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       hintText: 'Type Here',
@@ -103,7 +104,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       primary: Colors.white,
                       backgroundColor: Colors.blue,
                     ),
-                    autofocus: true,
                     child: Text(
                       "Generate",
                       style: TextStyle(
