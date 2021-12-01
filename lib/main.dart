@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         toolbarHeight: 80,
         title: Center(
           child: Text(
-            'Qr Code Generator',
+            'QrCode Generator',
             style: TextStyle(
               fontSize: 24,
               color: Colors.black,
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Center(
           child: Container(
-            width: 260,
+            width: 300,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -74,14 +74,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: QrImage(
                     data: generatedata,
                     version: QrVersions.auto,
-                    size: 240.0,
+                    size: 200.0,
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 16, 0, 0),
                   child: TextField(
-                    autofocus: true,
                     controller: convertText,
+                    autofocus: true,
                     textAlign: TextAlign.center,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),

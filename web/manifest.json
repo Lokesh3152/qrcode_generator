@@ -1,6 +1,6 @@
 {
-    "name": "qrcode_generator",
-    "short_name": "qrcode_generator",
+    "name": "qrgen",
+    "short_name": "qrgen",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

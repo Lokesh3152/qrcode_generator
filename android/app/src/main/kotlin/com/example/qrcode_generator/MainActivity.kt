@@ -1,4 +1,4 @@
-package com.example.qrcode_generator
+package com.example.qrgen
 
 import io.flutter.embedding.android.FlutterActivity
 
