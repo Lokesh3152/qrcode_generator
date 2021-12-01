@@ -74,17 +74,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: QrImage(
                     data: generatedata,
                     version: QrVersions.auto,
-                    size: 200.0,
+                    size: 240.0,
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 16, 0, 0),
                   child: TextField(
                     controller: convertText,
+                    autofocus: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       hintText: 'Type Here',
-                      autofocus:true;
                     ),
                     onSubmitted: (value) {
                       setState(() {
@@ -96,6 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(
                     vertical: 16,
+                    horizontal: 24,
                   ),
                   child: TextButton(
                     style: TextButton.styleFrom(
