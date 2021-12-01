@@ -84,6 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       hintText: 'Type Here',
+                      autofocus:true;
                     ),
                     onSubmitted: (value) {
                       setState(() {
