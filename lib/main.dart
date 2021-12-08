@@ -111,9 +111,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                     onPressed: () async {
-                      setState(() {
-                        generatedata = convertText.text;
-                      });
+                      setState(
+                        () {
+                          generatedata = convertText.text;
+                        },
+                      );
                     },
                   ),
                 ),
