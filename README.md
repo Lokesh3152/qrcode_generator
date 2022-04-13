@@ -32,3 +32,9 @@ QR.Flutter is a Flutter library for simple and fast QR code rendering via a Widg
 * Supports image overlays
 * Export to image data to save to file or use in memory
 * No internet connection required
+
+
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/24923889/Lokesh3152/qrcode_generator/recent-activity/d0b0cb3cff381e41e8287835e6b0fab0_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/24923889/Lokesh3152/qrcode_generator/recent-activity/d0b0cb3cff381e41e8287835e6b0fab0_timeline.svg)](https://github.com/Lokesh3152/qrcode_generator/commits)
+
+
